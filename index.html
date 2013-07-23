@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>afriendis</title>
+    <title>afriendtice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css"> -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'>
     <style type="text/css">
@@ -43,11 +43,21 @@
       
       body {
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        background-color: #E6EBE6;
       }
+      /*.navbar-inner {
+        background-color: #eeeeee;
+      }*/
       .heading, .subheading {
         font-family: 'Coustard', serif;
-        #font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        text-align: center;
+        /*#font-family: 'Ubuntu', Helvetica, Arial, sans-serif;*/
+        /*text-align: center;*/
+      }
+      .hero-unit {
+        background-color: #F3FFF3;
+      }
+      .afriendtice {
+        font-family: 'Coustard', serif;
       }
       p.lead {
         padding-top: 1.5%;
@@ -87,7 +97,7 @@
         padding: 2.5% 0%;
       }
       .footer {
-        color: #cccccc;
+        /*color: #aaaaaa;*/
         text-align: center;
       }
       .footer p {
@@ -109,7 +119,8 @@
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	  </button>
-	  <a class="brand" href="#">afriendis</a>
+	  <!-- <a class="brand" href="#">afriendtice</a> -->
+    <a class="brand"><i class="icon-user"></i><i class="icon-user"></i></a>
 	  <div class="nav-collapse collapse">
 	    <ul class="nav">
 	      <li class="active"><a href="#">Home</a></li>
@@ -121,19 +132,58 @@
       </div>
     </div>
 
+    <div class="container">
+      <div class="hero-unit">
+        <div class="heading"><h1>afriendtice</h1></div>
+        <div class="subheading"><p>It's who you know, and what they know.</p></div>
+        <p><ul><li>Are you a mechanic who wishes they could bake cupcakes betwen oil changes? </li>
+        <li>A hopeless programmer who wishes their thumb was more green? </li>
+        <li>How about a single parent who needs to fix some drywall?</li>
+
+        </ul>
+        We're there to help connect you with people you may already know to learn what they already know. 
+        </p>
+
+        <p>
+          <a class="btn btn-primary btn-large">
+            Learn more
+          </a>
+        </p>
+      </div>
+    </div>
 
     <div class="container">
-      <div class="row-fluid heading">
-	<div class="span12">
-	  <h1>afriendis</h1>
-	</div>
+
+          <div class="row">
+        <div class="span4">
+          <h2>who?</h2>
+          <p>A neighbor. A coworker. A long lost relative. A new friend. Anyone around you could be your mentor, or you their's. All it takes is making that connection, and that's where we come in.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>what?</h2>
+          <p>Your skills and experiences make you who you are. The same is true of every person you know, and everyone they know. What do you want to learn today? How can you help someone else learn something new?</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>how?</h2>
+          <p>You tell us what you can do and what you want to learn. We connect you with someone you likely already know who can help you get there. All we ask is that you do the same. It's that simple. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
       </div>
-      <div class="row-fluid subheading">
+
+      <hr>
+      <!-- <div class="row-fluid heading">
 	<div class="span12">
-	  <p class="lead">One sentence description.</p>
+	  <h1>afriendtice</h1>
 	</div>
-      </div>
-      <div class="row-fluid pitch">
+      </div> -->
+      <!-- <div class="row-fluid subheading">
+	<div class="span12">
+	  <p class="lead">It's who you know, and what they know.</p>
+	</div>
+      </div> -->
+<!--       <div class="row-fluid pitch">
 	<div class="span5 offset1 video">
 	  <img class="img-polaroid" src="http://placehold.it/480x300">
 	</div>
@@ -193,9 +243,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id diam nec feli
 	<div class="span5 asset">
 	  <img class="img-polaroid" src="http://placehold.it/480x300">
 	</div>
-      </div>
+      </div> -->
 
-      <div class="row-fluid faq">
+<!--       <div class="row-fluid faq">
 	<div class="span10 offset1">
 	  <h3>FAQ</h3>
 	  <div class="accordon" id="accordion2">
@@ -227,7 +277,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id diam nec feli
 	    </div>
 	  </div>
 	</div>
-      </div>
+      </div> -->
 
       <div class="row-fluid footer">
 	<div class="span12">
